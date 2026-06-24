@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "VaultU",
+    "slug": "vaultu-mobile",
+    "jsEngine": "hermes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "vaultu",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f4a2c"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.knust.vaultu"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f4a2c"
+      },
+      "package": "com.knust.vaultu"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
